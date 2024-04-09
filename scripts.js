@@ -16,7 +16,7 @@
         logo = 'icons/primary_marker.svg'
       }
       else if(type == 2){
-        chairmanHeading = 'Председатель первичного отделения';
+        chairmanHeading = 'Директор ПМЦ';
         anchor  = [0.5, 0.8];
         logo = 'icons/club_marker.png';
       }
