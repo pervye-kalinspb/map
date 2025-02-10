@@ -17,8 +17,8 @@
       }
       else if(type == 2){
         chairmanHeading = 'Директор ПМЦ';
-        anchor  = [0.5, 0.8];
-        logo = 'icons/club_marker.png';
+        anchor  = [0.5, 1];
+        logo = 'icons/pmc.svg';
       }
       const marker = new ol.Feature({
       geometry: new ol.geom.Point(ol.proj.fromLonLat(LatLonToLonLat(coordinates))),
@@ -779,7 +779,15 @@ createMarker(markerSource, {
       { type: 1 }
     );
 
-    
+ createMarker(markerSource, {
+      coordinates: [59.985841, 30.413739],
+      name:     `Подростково-молодёжный клуб «Мужество»`,
+      chairman: 'Логвинова Наталья Владимировна',
+      address:  'пр. Мечникова, д. 19',
+      vkLink:   'https://vk.com/pmk_muzhestvo'},
+      { type: 2 }
+    );
+
     const kalininskyCoords  = [
       [30.349528, 59.952000], [30.350140, 59.954291], [30.353977, 59.959943], [30.352097, 59.962480], [30.347368, 59.973272],
       [30.344021, 59.977209], [30.344128, 59.977520], [30.360446, 59.979139], [30.362016, 59.978986], [30.365811, 59.977644],
