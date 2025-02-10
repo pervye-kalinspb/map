@@ -64,13 +64,193 @@
     const markerSource = new ol.source.Vector({
     });
 
-    createMarker(markerSource, {
-      coordinates: [60.021146, 30.396249],
-      name:     `Государственное бюджетное учреждение дополнительного образования Центр внешкольной работы с детьми и молодежью Калининского района Санкт-Петербурга «Академический»`,
-      chairman: 'Голубева Елизавета Юрьевна',
-      address:  'ул. Вавиловых, д. 13, к. 3',
-      vkLink:   'https://vk.com/mypervie78_kalin'},
-      { type: 0 }
+ createMarker(markerSource, {
+      coordinates: [59.985841, 30.413739],
+      name:     `Подростково-молодёжный клуб «Мужество»`,
+      chairman: 'Логвинова Наталья Владимировна',
+      address:  'пр. Мечникова, д. 19',
+      vkLink:   'https://vk.com/pmk_muzhestvo'},
+      { type: 2 }
+    );
+
+ createMarker(markerSource, {
+      coordinates: [59.972076, 30.411067],
+      name:     `Подростково-молодёжный клуб «Творчество»`,
+      chairman: 'Логвинова Наталья Владимировна',
+      address:  'Пискаревский пр., д. 28',
+      vkLink:   'https://vk.com/tvorchestvo_club'},
+      { type: 2 }
+    );
+
+ createMarker(markerSource, {
+      coordinates: [59.975671, 30.393051],
+      name:     `Подростково-молодёжный клуб «ВКадре»`,
+      chairman: 'Логвинова Наталья Владимировна',
+      address:  'Кондратьевский пр., д. 63, к. 1',
+      vkLink:   'https://vk.com/pmk_vkadre'},
+      { type: 2 }
+    );
+
+ createMarker(markerSource, {
+      coordinates: [59.991287, 30.428320],
+      name:     `Подростково-молодёжный клуб «Дружба»`,
+      chairman: 'Логвинова Наталья Владимировна',
+      address:  'Пискаревский пр., д. 52',
+      vkLink:   'https://vk.com/pmk.druzhba'},
+      { type: 2 }
+    );
+
+ createMarker(markerSource, {
+      coordinates: [60.007060, 30.426917],
+      name:     `Подростково-молодёжный клуб «Алые паруса»`,
+      chairman: 'Логвинова Наталья Владимировна',
+      address:  'пр. Науки, д. 44',
+      vkLink:   'https://vk.com/pmkalyeparusa'},
+      { type: 2 }
+    );
+
+ createMarker(markerSource, {
+      coordinates: [60.007977, 30.421496],
+      name:     `Подростково-молодёжный клуб «Прожектор»`,
+      chairman: 'Логвинова Наталья Владимировна',
+      address:  'пр. Науки, д. 38',
+      vkLink:   'https://vk.com/projektorpmk'},
+      { type: 2 }
+    );
+
+createMarker(markerSource, {
+      coordinates: [59.980134, 30.382141],
+      name:     `Подростково-молодёжный клуб «Ровесник»`,
+      chairman: 'Логвинова Наталья Владимировна',
+      address:  'пр. Маршала Блюхера, д. 14',
+      vkLink:   'https://vk.com/pmkrovesnik'},
+      { type: 2 }
+    );
+
+createMarker(markerSource, {
+      coordinates: [60.001020, 30.394164],
+      name:     `Подростково-молодёжный клуб «Бригантина»`,
+      chairman: 'Логвинова Наталья Владимировна',
+      address:  'ул. Бутлерова, д. 10',
+      vkLink:   'https://vk.com/brigaru'},
+      { type: 2 }
+    );
+
+createMarker(markerSource, {
+      coordinates: [59.996192, 30.384751],
+      name:     `Подростково-молодёжный клуб «Непокорённых»`,
+      chairman: 'Логвинова Наталья Владимировна',
+      address:  'пр. Непокоренных, д. 16',
+      vkLink:   'https://vk.com/club_nepokor'},
+      { type: 2 }
+    );
+
+createMarker(markerSource, {
+      coordinates: [60.026698, 30.376720],
+      name:     `Подростково-молодёжный клуб «Олимп»`,
+      chairman: 'Логвинова Наталья Владимировна',
+      address:  'ул. Академика Байкова, д. 15',
+      vkLink:   'https://vk.com/pmk_olimp'},
+      { type: 2 }
+    );
+
+createMarker(markerSource, {
+      coordinates: [60.044920, 30.377137],
+      name:     `Подростково-молодёжный клуб «Пионер»`,
+      chairman: 'Логвинова Наталья Владимировна',
+      address:  'пр. Культуры, д. 21',
+      vkLink:   'https://vk.com/pmkpioner'},
+      { type: 2 }
+    );
+
+createMarker(markerSource, {
+      coordinates: [60.040501, 30.393525],
+      name:     `Подростково-молодёжный клуб «Огонёк»`,
+      chairman: 'Логвинова Наталья Владимировна',
+      address:  'пр. Просвещения, д. 67',
+      vkLink:   'https://vk.com/pmk_ogonek'},
+      { type: 2 }
+    );
+
+createMarker(markerSource, {
+      coordinates: [60.040710, 30.415233],
+      name:     `Подростково-молодёжный клуб «Парус»`,
+      chairman: 'Логвинова Наталья Владимировна',
+      address:  'ул. Ушинского, д. 35',
+      vkLink:   'https://vk.com/pmkparus'},
+      { type: 2 }
+    );
+
+createMarker(markerSource, {
+      coordinates: [60.029103, 30.405520],
+      name:     `Подростково-молодёжный клуб «Эврика»`,
+      chairman: 'Логвинова Наталья Владимировна',
+      address:  'ул. Ушинского, д. 5',
+      vkLink:   'https://vk.com/evrikapmk'},
+      { type: 2 }
+    );
+
+createMarker(markerSource, {
+      coordinates: [60.046185, 30.405089],
+      name:     `Подростково-молодёжный клуб «Кухня»`,
+      chairman: 'Логвинова Наталья Владимировна',
+      address:  'Светлановский пр., д. 121, к. 1',
+      vkLink:   'https://vk.com/pmk_kuhnja'},
+      { type: 2 }
+    );
+
+createMarker(markerSource, {
+      coordinates: [59.993120, 30.433593],
+      name:     `Молодёжное выставочное пространство «Окна»`,
+      chairman: 'Логвинова Наталья Владимировна',
+      address:  'пр. Непокорённых, д. 74',
+      vkLink:   'https://vk.com/okna_art_gallery'},
+      { type: 2 }
+    );
+
+createMarker(markerSource, {
+      coordinates: [60.024851, 30.427650],
+      name:     `Подростково-молодёжный клуб «Вымпел»`,
+      chairman: 'Логвинова Наталья Владимировна',
+      address:  'ул. Лужская, д. 10',
+      vkLink:   'https://vk.com/pmkvympel'},
+      { type: 2 }
+    );
+
+createMarker(markerSource, {
+      coordinates: [60.037721, 30.430499],
+      name:     `Подростково-молодёжный клуб «Спасатель»`,
+      chairman: 'Логвинова Наталья Владимировна',
+      address:  'ул. Руставели, д. 66',
+      vkLink:   'https://vk.com/pmkspasatel'},
+      { type: 2 }
+    );
+
+createMarker(markerSource, {
+      coordinates: [60.013963, 30.435004],
+      name:     `Дом молодежи «Атлант»`,
+      chairman: 'Логвинова Наталья Владимировна',
+      address:  'ул. Руставели, д. 37',
+      vkLink:   'https://vk.com/dm_atlant'},
+      { type: 2 }
+    );
+
+createMarker(markerSource, {
+      coordinates: [60.035956, 30.375251],
+      name:     `Подростково-молодёжный клуб «Ритмикс»`,
+      chairman: 'Логвинова Наталья Владимировна',
+      address:  'пр. Луначарского, д. 80',
+      vkLink:   'https://vk.com/pmk_ritmix'},
+      { type: 2 }
+    );
+
+createMarker(markerSource, {
+      coordinates: [60.050987, 30.385811],
+      name:     `Центр поддержки молодёжных инициатив Калининского района «#Водинголос»`,
+      chairman: 'Логвинова Наталья Владимировна',
+      address:  'Суздальский пр., д. 61',
+      vkLink:   'https://vk.com/club17421674'},
+      { type: 2 }
     );
 
     createMarker(markerSource, {
@@ -779,13 +959,13 @@ createMarker(markerSource, {
       { type: 1 }
     );
 
- createMarker(markerSource, {
-      coordinates: [59.985841, 30.413739],
-      name:     `Подростково-молодёжный клуб «Мужество»`,
-      chairman: 'Логвинова Наталья Владимировна',
-      address:  'пр. Мечникова, д. 19',
-      vkLink:   'https://vk.com/pmk_muzhestvo'},
-      { type: 2 }
+    createMarker(markerSource, {
+      coordinates: [60.021146, 30.396249],
+      name:     `Государственное бюджетное учреждение дополнительного образования Центр внешкольной работы с детьми и молодежью Калининского района Санкт-Петербурга «Академический»`,
+      chairman: 'Голубева Елизавета Юрьевна',
+      address:  'ул. Вавиловых, д. 13, к. 3',
+      vkLink:   'https://vk.com/mypervie78_kalin'},
+      { type: 0 }
     );
 
     const kalininskyCoords  = [
