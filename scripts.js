@@ -20,6 +20,11 @@ chairmanHeading = 'Директор ПМЦ';
 anchor  = [0.5, 1];
 logo = 'icons/pmc.svg';
 }
+else if(type == 3){
+chairmanHeading = 'Координатор проекта';
+anchor  = [0.5, 1];
+logo = 'icons/navdet.svg';
+}
 const marker = new ol.Feature({
 geometry: new ol.geom.Point(ol.proj.fromLonLat(LatLonToLonLat(coordinates))),
 description: `<b style="color:#4a4a84">${name}</b>
@@ -978,7 +983,7 @@ vkLink:   'https://vk.com/polytech_petra'},
 );
 
 createMarker(markerSource, {
-coordinates: [60.021501, 30.395884],
+coordinates: [60.020959, 30.395971],
 name:     `Государственное бюджетное учреждение дополнительного образования Центр внешкольной работы с детьми и молодежью Калининского района Санкт-Петербурга «Академический»`,
 chairman: 'Савостина Ирина Максимовна',
 address:  'ул. Вавиловых, д. 13, к. 3',
@@ -987,12 +992,21 @@ vkLink:   'https://vk.com/cvrakadem'},
 );
 
 createMarker(markerSource, {
-coordinates: [60.021146, 30.396249],
-name:     `Государственное бюджетное учреждение дополнительного образования Центр внешкольной работы с детьми и молодежью Калининского района Санкт-Петербурга «Академический»`,
+coordinates: [60.021371, 30.396012],
+name:     `Движение Первых | Калининский район`,
 chairman: 'Голубева Елизавета Юрьевна',
 address:  'ул. Вавиловых, д. 13, к. 3',
 vkLink:   'https://vk.com/mypervie78_kalin'},
 { type: 0 }
+);
+
+createMarker(markerSource, {
+coordinates: [60.021225, 30.396607],
+name:     `Навигаторы детства | Калининский район`,
+chairman: 'Капов Даниэль Мухабович',
+address:  'ул. Вавиловых, д. 13, к. 3',
+vkLink:   'https://vk.com/navdet_kalin'},
+{ type: 3 }
 );
 
 const kalininskyCoords  = [
