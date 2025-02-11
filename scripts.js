@@ -288,7 +288,7 @@ vkLink:   'https://vk.com/school_28_spb'},
 createMarker(markerSource, {
 coordinates: [60.038784, 30.373567],
 name:     `Государственное бюджетное общеобразовательное учреждение Гимназия № 63 Калининского района Санкт‑Петербурга`,
-chairman: 'Байрамова Вероника Викторовна',
+chairman: 'Мурашева Мария Юрьевна',
 address:  'пр. Культуры, д. 11, к. 4, лит. А',
 vkLink:   'https://vk.com/gimn63spb'},
 { type: 1 }
@@ -315,7 +315,7 @@ vkLink:   'https://vk.com/school_69_spb'},
 createMarker(markerSource, {
 coordinates: [60.016914, 30.392971],
 name:     `Государственное бюджетное общеобразовательное учреждение средняя общеобразовательная школа № 71 Калининского района Санкт‑Петербурга`,
-chairman: 'Иванова Елена Сергеевна',
+chairman: 'Гусева Ирина Владимировна',
 address:  'ул. Вавиловых, д. 5, к. 5, лит. А',
 vkLink:   'https://vk.com/schoolspb71'},
 { type: 1 }
@@ -405,7 +405,7 @@ vkLink:   'https://vk.com/school96spb'},
 createMarker(markerSource, {
 coordinates: [60.018614, 30.410092],
 name:     `Государственное бюджетное общеобразовательное учреждение средняя общеобразовательная школа № 98 с углубленным изучением английского языка Калининского района Санкт‑Петербурга`,
-chairman: 'Шелягина Валерия Евгеньевна',
+chairman: 'Проле Милена Митаровна',
 address:  'ул. Софьи Ковалевской, д. 16, к. 6',
 vkLink:   'https://vk.com/sova98school'},
 { type: 1 }
@@ -414,7 +414,7 @@ vkLink:   'https://vk.com/sova98school'},
 createMarker(markerSource, {
 coordinates: [60.020435, 30.398828],
 name:     `Государственное бюджетное общеобразовательное учреждение средняя общеобразовательная школа № 98 с углубленным изучением английского языка Калининского района Санкт‑Петербурга`,
-chairman: 'Шелягина Валерия Евгеньевна',
+chairman: 'Проле Милена Митаровна',
 address:  'Гражданский пр., д. 92, к. 3',
 vkLink:   'https://vk.com/sova98school'},
 { type: 1 }
@@ -423,7 +423,7 @@ vkLink:   'https://vk.com/sova98school'},
 createMarker(markerSource, {
 coordinates: [59.986389, 30.385793],
 name:     `Государственное бюджетное общеобразовательное учреждение средняя общеобразовательная школа № 100 Калининского района Санкт-Петербурга`,
-chairman: 'Попадейкина Юлия Юрьевна',
+chairman: 'Илюшечкина Юлия Юрьевна',
 address:  'ул. Бестужевская, д. 5, к. 1',
 vkLink:   'https://vk.com/sch100spb'},
 { type: 1 }
@@ -432,7 +432,7 @@ vkLink:   'https://vk.com/sch100spb'},
 createMarker(markerSource, {
 coordinates: [59.987319, 30.382984],  
 name:     `Государственное бюджетное общеобразовательное учреждение средняя общеобразовательная школа № 100 Калининского района Санкт-Петербурга`,
-chairman: 'Попадейкина Юлия Юрьевна',
+chairman: 'Илюшечкина Юлия Юрьевна',
 address:  'ул. Бестужевская, д. 3, к. 4',
 vkLink:   'https://vk.com/sch100spb'},
 { type: 1 }
@@ -468,7 +468,7 @@ vkLink:   'https://vk.com/school121spb'},
 createMarker(markerSource, {
 coordinates: [59.974563, 30.394848],
 name:     `Государственное бюджетное общеобразовательное учреждение лицей № 126 Калининского района Санкт‑Петербурга`,
-chairman: 'Безукладникова Екатерина Андреевна',
+chairman: 'Герасимова Наталья Михайловна',
 address:  'ул. Федосеенко, д. 28, лит. А',
 vkLink:   'https://vk.com/dvizheniyevlitseye'},
 { type: 1 }
@@ -477,7 +477,7 @@ vkLink:   'https://vk.com/dvizheniyevlitseye'},
 createMarker(markerSource, {
 coordinates: [59.975395, 30.376089],
 name:     `Государственное бюджетное общеобразовательное учреждение лицей № 126 Калининского района Санкт‑Петербурга`,
-chairman: 'Безукладникова Екатерина Андреевна',
+chairman: 'Герасимова Наталья Михайловна',
 address:  'Полюстровский пр., д. 61, лит. А',
 vkLink:   'https://vk.com/dvizheniyevlitseye'},
 { type: 1 }
@@ -486,7 +486,7 @@ vkLink:   'https://vk.com/dvizheniyevlitseye'},
 createMarker(markerSource, {
 coordinates: [59.970735, 30.394927],
 name:     `Государственное бюджетное общеобразовательное учреждение лицей № 126 Калининского района Санкт‑Петербурга`,
-chairman: 'Безукладникова Екатерина Андреевна',
+chairman: 'Герасимова Наталья Михайловна',
 address:  'ул. Замшина, д. 14, лит. А',
 vkLink:   'https://vk.com/dvizheniyevlitseye'},
 { type: 1 }
@@ -551,7 +551,7 @@ vkLink:   'https://vk.com/spbschool139'},
 createMarker(markerSource, {
 coordinates: [60.042642, 30.405800],
 name:     `Государственное бюджетное общеобразовательное учреждение лицей № 144 Калининского района Санкт-Петербурга`,
-chairman: 'Фомичева Галина Олеговна',
+chairman: 'Ромах Виктория Владимировна',
 address:  'ул. Тимуровская, д. 15, к. 2',
 vkLink:   'https://vk.com/luzeum144_spb'},
 { type: 1 }
@@ -560,7 +560,7 @@ vkLink:   'https://vk.com/luzeum144_spb'},
 createMarker(markerSource, {
 coordinates: [60.044860, 30.411193],
 name:     `Государственное бюджетное общеобразовательное учреждение лицей № 144 Калининского района Санкт-Петербурга`,
-chairman: 'Фомичева Галина Олеговна',
+chairman: 'Ромах Виктория Владимировна',
 address:  'Суздальский пр., д. 93, к. 2',
 vkLink:   'https://vk.com/luzeum144_spb'},
 { type: 1 }
@@ -596,7 +596,7 @@ vkLink:   'https://vk.com/gimnasia148spb'},
 createMarker(markerSource, {
 coordinates: [60.025988, 30.416982],
 name:     `Государственное бюджетное общеобразовательное учреждение средняя общеобразовательная школа № 149 Калининского района Санкт-Петербурга`,
-chairman: 'Киселев Артем Евгеньевич',
+chairman: 'Татаринова Дарья Андреевна',
 address:  'ул. Черкасова, д. 4, к. 2, лит. А',
 vkLink:   'https://vk.com/school149spb'},
 { type: 1 }
@@ -668,7 +668,7 @@ vkLink:   'https://vk.com/school176_spb'},
 createMarker(markerSource, {
 coordinates: [60.040932, 30.418078],
 name:     `Государственное бюджетное общеобразовательное учреждение лицей № 179 Калининского района Санкт‑Петербурга`,
-chairman: 'Резванова Марина Михайловна',
+chairman: 'Белая Юлия Александровна',
 address:  'ул. Ушинского, д. 35, к. 2, лит. А',
 vkLink:   'https://vk.com/mypervie78_gbou179'},
 { type: 1 }
@@ -677,7 +677,7 @@ vkLink:   'https://vk.com/mypervie78_gbou179'},
 createMarker(markerSource, {
 coordinates: [59.982090, 30.368609],
 name:     `Государственное бюджетное общеобразовательное учреждение лицей № 179 Калининского района Санкт‑Петербурга`,
-chairman: 'Резванова Марина Михайловна',
+chairman: 'Белая Юлия Александровна',
 address:  'пр. Маршала Блюхера, д. 3, к. 4',
 vkLink:   'https://vk.com/mypervie78_gbou179'},
 { type: 1 }
@@ -722,7 +722,7 @@ vkLink:   'https://vk.com/club162815287'},
 createMarker(markerSource, {
 coordinates: [60.006607, 30.396993],
 name:     `Государственное бюджетное общеобразовательное учреждение лицей № 470 Калининского района Санкт‑Петербурга`,
-chairman: 'Савинова Наталья Юрьевна',
+chairman: 'Злобина Александра Игоревна',
 address:  'Гражданский пр., д. 31, к. 5, лит. А',
 vkLink:   'https://vk.com/liceum470_spb'},
 { type: 1 }
@@ -731,7 +731,7 @@ vkLink:   'https://vk.com/liceum470_spb'},
 createMarker(markerSource, {
 coordinates: [60.003824, 30.397587],
 name:     `Государственное бюджетное общеобразовательное учреждение лицей № 470 Калининского района Санкт‑Петербурга`,
-chairman: 'Савинова Наталья Юрьевна',
+chairman: 'Злобина Александра Игоревна',
 address:  'ул. Бутлерова, д. 22, лит. А',
 vkLink:   'https://vk.com/liceum470_spb'},
 { type: 1 }
@@ -749,7 +749,7 @@ vkLink:   'https://vk.com/school514vk'},
 createMarker(markerSource, {
 coordinates: [60.015493, 30.420333],
 name:     `Государственное бюджетное общеобразовательное учреждение средняя общеобразовательная школа № 535 Калининского района Санкт-Петербурга`,
-chairman: 'Григорьева Алина Игоревна',
+chairman: 'Илинзер Елена Игоревна',
 address:  'ул. Софьи Ковалевской, д. 13, к. 6, лит. А',
 vkLink:   'https://vk.com/rddm_535'},
 { type: 1 }
@@ -758,7 +758,7 @@ vkLink:   'https://vk.com/rddm_535'},
 createMarker(markerSource, {
 coordinates: [60.014675, 30.423756],
 name:     `Государственное бюджетное общеобразовательное учреждение средняя общеобразовательная школа № 561 Калининского района Санкт‑Петербурга`,
-chairman: '-',
+chairman: '—',
 address:  'ул. Карпинского, д. 38, к. 8, лит. А',
 vkLink:   'https://vk.com/club170540032'},
 { type: 1 }
@@ -776,7 +776,7 @@ vkLink:   'https://vk.com/rddm619school'},
 createMarker(markerSource, {
 coordinates: [59.983752, 30.394641],
 name:     `Государственное бюджетное общеобразовательное учреждение средняя общеобразовательная школа № 619 Калининского района Санкт-Петербурга`,
-chairman: 'Перевертун Александр Романович',
+chairman: 'Веселова Екатерина Александровна',
 address:  'Кондратьевский пр., д. 68, к. 3',
 vkLink:   'https://vk.com/rddm619school'},
 { type: 1 }
@@ -813,7 +813,7 @@ vkLink:   'https://vk.com/sch692spb'},
 createMarker(markerSource, {
 coordinates: [60.023470, 30.435254],
 name:     `Санкт-Петербургское государственное бюджетное учреждение спортивная школа олимпийского резерва по конному спорту и современному пятиборью`,
-chairman: '-',
+chairman: '—',
 address:  'ул. Руставели, д. 51',
 vkLink:   'https://vk.com/club1405257'},
 { type: 1 }
@@ -912,7 +912,7 @@ vkLink:   'https://vk.com/ccskills'},
 createMarker(markerSource, {
 coordinates: [59.976176, 30.377040],
 name:     `Санкт-Петербургское государственное бюджетное профессиональное образовательное учреждение «Оптико-механический лицей»`,
-chairman: '-',
+chairman: '—',
 address:  'Полюстровский пр., д. 61, лит. А',
 vkLink:   'https://vk.com/myoml'},
 { type: 1 }
@@ -930,7 +930,7 @@ vkLink:   'https://vk.com/spbtk_ru'},
 createMarker(markerSource, {
 coordinates: [60.033107, 30.389494],
 name:     `Санкт-Петербургское государственное бюджетное профессиональное образовательное учреждение «Акушерский колледж»`,
-chairman: '-',
+chairman: '—',
 address:  'ул. Учительская, д. 9, к. 3',
 vkLink:   'https://vk.com/club80119744'},
 { type: 1 }
@@ -949,7 +949,7 @@ vkLink:   'https://vk.com/mrcpk_teim'},
 createMarker(markerSource, {
 coordinates: [60.035898, 30.382489],
 name:     `Санкт-Петербургское государственное бюджетное профессиональное образовательное учреждение «Колледж автоматизации производственных процессов и прикладных информационных систем»`,
-chairman: '-',
+chairman: '—',
 address:  'Учительская ул., д. 1, к. 5, лит. А',
 vkLink:   'https://vk.com/spbkap'},
 { type: 1 }
@@ -967,7 +967,7 @@ vkLink:   'https://vk.com/augsgip'},
 createMarker(markerSource, {
 coordinates: [60.030927, 30.401602], 
 name:     `Санкт-Петербургское государственное бюджетное профессиональное образовательное учреждение «Лицей сервиса и индустриальных технологий»`,
-chairman: '-',
+chairman: '—',
 address:  'ул. Учительская, д. 21',
 vkLink:   'https://vk.com/lsit70'},
 { type: 1 }
@@ -976,7 +976,7 @@ vkLink:   'https://vk.com/lsit70'},
 createMarker(markerSource, {
 coordinates: [60.007465, 30.373109],
 name:     `Федеральное государственное автономное образовательное учреждение высшего образования «Санкт-Петербургский политехнический университет Петра Великого»`,
-chairman: '-',
+chairman: '—',
 address:  'ул. Политехническая, д. 29',
 vkLink:   'https://vk.com/polytech_petra'},
 { type: 1 }
