@@ -1078,3 +1078,11 @@ createMarker(markerSource, {
         boundaryLayer.setVisible(false);
       }
     }
+document.addEventListener("DOMContentLoaded", function () {
+    const socialContainer = document.querySelector(".regional-item-info__block-value._list");
+    if (socialContainer) {
+        socialContainer.style.display = "flex";
+        socialContainer.style.gap = "10px"; // Отступ между иконками
+        socialContainer.style.alignItems = "center";
+    }
+});
