@@ -43,8 +43,6 @@
                             17.937C23.6819 17.2112 22.8326 16.1575 21.7065 14.9073C21.0951 14.1955 20.1778 13.4285 19.8991 13.0445C19.5104 12.5523 
                             19.6213 12.3327 19.8991 11.8946C19.8991 11.8946 23.0974 7.45727 23.4301 5.95043Z" fill="currentColor"></path>
                           </svg>
-                        </div>
-                      </a>
                       <a href=${tglink} target="_blank">
                           <svg width="24x" height="24px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                         	<circle cx="16" cy="16" r="14" fill="url(#paint0_linear_87_7225)"/>
