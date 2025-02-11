@@ -1080,10 +1080,16 @@ createMarker(markerSource, {
       }
     }
 document.addEventListener("DOMContentLoaded", function () {
-    const socialContainer = document.querySelector(".regional-item-info__block-value._list");
-    if (socialContainer) {
-        socialContainer.style.display = "flex";
-        socialContainer.style.gap = "10px"; // Отступ между иконками
-        socialContainer.style.alignItems = "center";
-    }
+    document.body.addEventListener("click", function (event) {
+        const socialContainer = event.target.closest(".regional-item-info__block-value._list");
+        if (socialContainer) {
+            socialContainer.style.display = "flex";
+            socialContainer.style.gap = "10px";
+            socialContainer.style.alignItems = "center";
+        const telegramLink = socialContainer.querySelector("a[href*='t.me']");
+            const telegramIcon = socialContainer.querySelector(".tgicon");
+            if (!telegramLink && telegramIcon) {
+                telegramIcon.remove();
+	    }
+    });
 });
