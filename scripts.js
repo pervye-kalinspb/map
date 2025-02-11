@@ -992,21 +992,21 @@ vkLink:   'https://vk.com/cvrakadem'},
 );
 
 createMarker(markerSource, {
-coordinates: [60.021371, 30.396012],
-name:     `Движение Первых | Калининский район`,
-chairman: 'Голубева Елизавета Юрьевна',
-address:  'ул. Вавиловых, д. 13, к. 3',
-vkLink:   'https://vk.com/mypervie78_kalin'},
-{ type: 0 }
-);
-
-createMarker(markerSource, {
 coordinates: [60.021225, 30.396607],
 name:     `Навигаторы детства | Калининский район`,
 chairman: 'Капов Даниэль Мухабович',
 address:  'ул. Вавиловых, д. 13, к. 3',
 vkLink:   'https://vk.com/navdet_kalin'},
 { type: 3 }
+);
+
+createMarker(markerSource, {
+coordinates: [60.021371, 30.396012],
+name:     `Движение Первых | Калининский район`,
+chairman: 'Голубева Елизавета Юрьевна',
+address:  'ул. Вавиловых, д. 13, к. 3',
+vkLink:   'https://vk.com/mypervie78_kalin'},
+{ type: 0 }
 );
 
 const kalininskyCoords  = [
