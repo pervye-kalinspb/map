@@ -82,7 +82,8 @@ coordinates: [59.985841, 30.413739],
 name:     `Подростково-молодёжный клуб «Мужество»`,
 chairman: 'Логвинова Наталья Владимировна',
 address:  'пр. Мечникова, д. 19',
-vkLink:   'https://vk.com/pmk_muzhestvo'},
+vkLink:   'https://vk.com/pmk_muzhestvo',
+tglink: 0},
 { type: 2 }
 );
 
