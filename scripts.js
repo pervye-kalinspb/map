@@ -1,82 +1,68 @@
- function LatLonToLonLat(coordinates) {
-      return [coordinates[1], coordinates[0]];
+document.addEventListener("DOMContentLoaded", function () {
+    document.body.addEventListener("click", function (event) {
+        const socialContainer = event.target.closest(".regional-item-info__block-value._list");
+        if (socialContainer) {
+            socialContainer.style.display = "flex";
+            socialContainer.style.gap = "10px";
+            socialContainer.style.alignItems = "center";
+        }
+    });
+});
+
+function createMarker(markerSource, data, condition) {
+    const { coordinates, name, chairman, address, vkLink, tglink } = data;
+    const { type } = condition;
+    let chairmanHeading, logo;
+
+    if (type == 0) {
+        chairmanHeading = 'Председатель местного отделения';
+        logo = 'icons/local_marker.svg';
+    } else if (type == 1) {
+        chairmanHeading = 'Председатель первичного отделения';
+        logo = 'icons/primary_marker.svg';
+    } else {
+        chairmanHeading = 'Директор ПМЦ';
+        logo = 'icons/pmc.svg';
     }
 
-    function createMarker(markerSource, data, condition){
-      const { coordinates, name, chairman, address, vkLink, tglink } = data;
-      const {type} = condition;
-      if(type == 0){
-        chairmanHeading = 'Председатель местного отделения';
-        anchor  = [0.5, 1];
-        logo = 'icons/local_marker.svg'
-      }
-      else if(type == 1){
-        chairmanHeading = 'Председатель первичного отделения';
-        anchor  = [0.5, 1];
-        logo = 'icons/primary_marker.svg'
-      }
-      else if(type == 2){
-        chairmanHeading = 'Директор ПМЦ';
-        anchor  = [0.5, 1];
-        logo = 'icons/pmc.svg';
-      }
-      const marker = new ol.Feature({
-      geometry: new ol.geom.Point(ol.proj.fromLonLat(LatLonToLonLat(coordinates))),
-      description: `<b style="color:#4a4a84">${name}</b>
-                    <br/><br/><div style="color:#7e7ea7">${chairmanHeading}</div>
-                    <p style="color:#4a4a84">${chairman}</p>
-                    <div style="color:#7e7ea7">Адрес</div>
-                    <p style="color:#4a4a84">${address}</p>
-                    <div style="color:#7e7ea7">Социальные сети</div>
-                    <div class="regional-item-info__block-value _list">
-                      <a href=${vkLink} target="_blank">
-                        <div class="v-icon" style="height: 24px; width: 24px;">
-                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    const tgIconHtml = tglink ? `<a href="${tglink}" target="_blank" class="tgicon">
+            <svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="16" cy="16" r="14" fill="url(#paint0_linear_87_7225)"/>
+                <path d="M22.9866 10.2088C23.1112 9.40332 22.3454 8.76755 21.6292 9.082L7.36482 15.3448C6.85123 15.5703 6.8888 16.3483 7.42147 16.5179L10.3631 17.4547C10.9246 17.6335 11.5325 17.541 12.0228 17.2023L18.655 12.6203C18.855 12.4821 19.073 12.7665 18.9021 12.9426L14.1281 17.8646C13.665 18.3421 13.7569 19.1512 14.314 19.5005L19.659 22.8523C20.2585 23.2282 21.0297 22.8506 21.1418 22.1261L22.9866 10.2088Z" fill="white"/>
+            </svg>
+        </a>` : '';
+
+    const marker = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat(LatLonToLonLat(coordinates))),
+        description: `<b style="color:#4a4a84">${name}</b>
+            <br/><br/><div style="color:#7e7ea7">${chairmanHeading}</div>
+            <p style="color:#4a4a84">${chairman}</p>
+            <div style="color:#7e7ea7">Адрес</div>
+            <p style="color:#4a4a84">${address}</p>
+            <div style="color:#7e7ea7">Социальные сети</div>
+            <div class="regional-item-info__block-value _list">
+                <a href="${vkLink}" target="_blank">
+                    <div class="v-icon" style="height: 24px; width: 24px;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M23.4301 5.95043C23.5959 5.40303 23.4301 5 22.6357 5H20.013C19.3455 5 
-                            19.0378 5.34789 18.8709 5.73187C18.8709 5.73187 17.5371 8.93605 15.6477 11.0174C15.0362 11.6209 14.7584 11.8124 14.4247 
-                            11.8124C14.2579 11.8124 14.0071 11.6209 14.0071 11.0725V5.95043C14.0071 5.29275 13.8232 5 13.2677 5H9.14322C8.72658 5 
-                            8.47579 5.30478 8.47579 5.59452C8.47579 6.21711 9.42099 6.36148 9.5179 8.11395V11.9217C9.5179 12.7568 9.36503 12.9082 
-                            9.03132 12.9082C8.14207 12.9082 5.97891 9.68897 4.69501 6.00557C4.44622 5.28874 4.19443 5 3.524 5H0.899235C0.149872 5 
-                            0 5.34789 0 5.73187C0 6.41561 0.889243 9.81229 4.14148 14.3048C6.30963 17.3726 9.36204 19.0358 12.1427 19.0358C13.8103 
-                            19.0358 14.0161 18.6669 14.0161 18.0303V15.7114C14.0161 14.9725 14.1739 14.8251 14.7025 14.8251C15.0922 14.8251 15.7586 
-                            15.0176 17.3153 16.4964C19.0938 18.2498 19.3865 19.0358 20.3877 19.0358H23.0104C23.7598 19.0358 24.1355 18.6669 23.9197 
-                            17.937C23.6819 17.2112 22.8326 16.1575 21.7065 14.9073C21.0951 14.1955 20.1778 13.4285 19.8991 13.0445C19.5104 12.5523 
-                            19.6213 12.3327 19.8991 11.8946C19.8991 11.8946 23.0974 7.45727 23.4301 5.95043Z" fill="currentColor"></path>
-                          </svg>
-                        </div>
-                      </a>
-                      <a href=${tglink} target="_blank">
-                          <svg width="24x" height="24px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        	<circle cx="16" cy="16" r="14" fill="url(#paint0_linear_87_7225)"/>
-                            	<path d="M22.9866 10.2088C23.1112 9.40332 22.3454 8.76755 21.6292 9.082L7.36482 15.3448C6.85123 15.5703 6.8888 16.3483 7.42147 16.5179L10.3631 17.4547C10.9246 17.6335 11.5325 17.541 12.0228 17.2023L18.655 12.6203C18.855 12.4821 19.073 12.7665 18.9021 12.9426L14.1281 17.8646C13.665 18.3421 13.7569 19.1512 14.314 19.5005L19.659 22.8523C20.2585 23.2282 21.0297 22.8506 21.1418 22.1261L22.9866 10.2088Z" fill="white"/>
-				<defs>
-	   			<linearGradient id="paint0_linear_87_7225" x1="16" y1="2" x2="16" y2="30" gradientUnits="userSpaceOnUse">
-		  		<stop stop-color="#37BBFE"/>
-		 		<stop offset="1" stop-color="#007DBB"/>
-				</linearGradient>
-                        	</defs>
-			   </svg>
-                       </a>
-                    </div>`
-      }); 
-      
-      const markerStyle = new ol.style.Style({
-      image: new ol.style.Icon({
-        anchor: anchor,
-        anchorXUnits: 'fraction',
-        anchorYUnits: 'fraction',
-        src: logo
-        })
-      });
-
-      marker.setStyle(markerStyle);
-      markerSource.addFeature(marker);
-    };
-
-    const markerSource = new ol.source.Vector({
+                                19.0378 5.34789 18.8709 5.73187C18.8709 5.73187 17.5371 8.93605 15.6477 11.0174C15.0362 11.6209 14.7584 11.8124 14.4247 
+                                11.8124C14.2579 11.8124 14.0071 11.6209 14.0071 11.0725V5.95043C14.0071 5.29275 13.8232 5 13.2677 5H9.14322C8.72658 5 
+                                8.47579 5.30478 8.47579 5.59452C8.47579 6.21711 9.42099 6.36148 9.5179 8.11395V11.9217C9.5179 12.7568 9.36503 12.9082 
+                                9.03132 12.9082C8.14207 12.9082 5.97891 9.68897 4.69501 6.00557C4.44622 5.28874 4.19443 5 3.524 5H0.899235C0.149872 5 
+                                0 5.34789 0 5.73187C0 6.41561 0.889243 9.81229 4.14148 14.3048C6.30963 17.3726 9.36204 19.0358 12.1427 19.0358C13.8103 
+                                19.0358 14.0161 18.6669 14.0161 18.0303V15.7114C14.0161 14.9725 14.1739 14.8251 14.7025 14.8251C15.0922 14.8251 15.7586 
+                                15.0176 17.3153 16.4964C19.0938 18.2498 19.3865 19.0358 20.3877 19.0358H23.0104C23.7598 19.0358 24.1355 18.6669 23.9197 
+                                17.937C23.6819 17.2112 22.8326 16.1575 21.7065 14.9073Z" fill="currentColor"></path>
+                        </svg>
+                    </div>
+                </a>
+                ${tgIconHtml}
+            </div>`
     });
+    markerSource.addFeature(marker);
+}
 
- createMarker(markerSource, {
+createMarker(markerSource, {
       coordinates: [59.985841, 30.413739],
       name:     `Подростково-молодёжный клуб «Мужество»`,
       chairman: 'Логвинова Наталья Владимировна',
